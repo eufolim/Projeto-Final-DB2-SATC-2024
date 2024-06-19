@@ -4,7 +4,7 @@
   "description": "Alex Farias De Abreu Nabo - @Alex-Farias<br>\r Icaro De Oliveira - @ynd-icaro<br>\r Jean Lucas Preis - @JeanPrei<br>\r Luiz Antônio Frey Cristiano - @eufolim<br>\r Matheus Araildi - @Araldi42<br>",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon index"
+    "start": "npx nodemon index "
   },
   "author": "",
   "license": "ISC",

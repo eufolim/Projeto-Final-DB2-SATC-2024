@@ -11,7 +11,7 @@ Matheus Araildi - @Araldi42<br>
  Utilizamos a ferramenta de modelagem de dados [dbdiagram.io](https://dbdiagram.io/) para criação do modelo físico do banco de dados, para posterior exportação dos scripts DDL das tabelas e relacionamentos.<br>
 Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/6561325e3be1495787b1c71a).<br>
 
-![image](https://github.com/eufolim/Projeto-Final-DB2-SATC-2024/blob/15-ajustar-organiza%C3%A7%C3%A3o-geral-do-projeto/modelo_fisico/modelo.pdf)
+![image](https://github.com/eufolim/Projeto-Final-DB2-SATC-2024/blob/main/Modelo_Fisico/Modelo.png)
   
 ### Dicionário de Dados
 As informações sobre as tabelas e índices foram documentados na planilha [template1.xlsx](dicionario_dados/template1.xlsx).

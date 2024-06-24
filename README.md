@@ -14,7 +14,7 @@ Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/6561325e3be1495787b1c71a).
 ![image](https://github.com/eufolim/Projeto-Final-DB2-SATC-2024/blob/main/Modelo_Fisico/Modelo.png)
   
 ### Dicionário de Dados
-As informações sobre as tabelas e índices foram documentados na planilha [template1.xlsx](dicionario_dados/template1.xlsx).
+As informações sobre as tabelas e índices foram documentados na planilha [Dicionário.xlsx](dicionario_dados/Dicionário.xlsx).
 
 ### Scripts SQL
 Para este projeto foi utilizado o banco de dados [MySQL Database](https://www.mysql.com/downloads/) <br>
@@ -42,4 +42,4 @@ Abaixo, segue os scripts SQL separados por tipo:
 [Codigo Fonte](fonte/)
 
 ### Relatório Final
-O relatório final está disponível no arquivo [template1.docx](relatorio/template1.docx).
+O relatório final está disponível no arquivo [Relatório.docx](relatorio/Relatório.docx).

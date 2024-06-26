@@ -1,3 +1,4 @@
+'use client'
 import { useState, useEffect } from 'react';
 import { List, ListItem, ListItemText, Typography } from '@mui/material';
 import api from '../services/api';
@@ -16,7 +17,7 @@ const ListClients = () => {
   useEffect(() => {
     const fetchClients = async () => {
       try {
-        const response = await api.get('http://localhost:3001/clients');
+        const response = await api.get('/clients');
         setClients(response.data);
       } catch (error) {
         console.error('Erro ao buscar clientes', error);

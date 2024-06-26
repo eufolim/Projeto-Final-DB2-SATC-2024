@@ -1,3 +1,4 @@
+'use client'
 import { useState } from 'react';
 import { TextField, Button, List, ListItem, ListItemText } from '@mui/material';
 import api from '../services/api';

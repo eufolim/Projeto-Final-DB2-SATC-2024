@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { List, ListItem, ListItemText, Typography } from '@mui/material';
+import api from '../services/api';
 
 interface Spot {
   id: number;
@@ -18,7 +18,7 @@ const ListSpots = () => {
   useEffect(() => {
     const fetchSpots = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/spots');
+        const response = await api.get('/spots');
         setSpots(response.data);
       } catch (error) {
         console.error('Erro ao buscar vagas', error);

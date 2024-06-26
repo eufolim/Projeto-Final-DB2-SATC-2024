@@ -33,7 +33,7 @@ const ParkingForm = () => {
 
   const handleSubmit = async () => {
     try {
-      await api.post('http://localhost:3001/parkings', parking);
+      await api.post('/parkings', parking);
       alert('Pagamento registrado com sucesso!');
     } catch (error) {
       console.error('Erro ao registrar pagamento', error);

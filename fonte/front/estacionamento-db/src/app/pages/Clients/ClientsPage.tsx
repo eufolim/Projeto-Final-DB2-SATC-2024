@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar';
-import ClientSearch from './components/ClientSearch';
+import Navbar from '@/app/components/Navbar';
+import ClientSearch from '@/app/components/ClientSearch';
 
 const ClientsPage = () => {
   return (
